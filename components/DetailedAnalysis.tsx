@@ -249,7 +249,7 @@ export const DetailedCAO: React.FC = () => {
                 <div className="mt-8 p-4 bg-slate-800 rounded-lg border border-slate-700">
                     <div className="text-xs text-slate-400 uppercase font-bold mb-1">Architecture Note</div>
                     <p className="text-xs text-slate-300">
-                        Notice how Throughput drops when CPU hits >90%. This demonstrates pipeline stalls and cache misses under heavy concurrency.
+                        Notice how Throughput drops when CPU hits {'>'}90%. This demonstrates pipeline stalls and cache misses under heavy concurrency.
                     </p>
                 </div>
             </div>
